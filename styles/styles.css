@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.redirect-a-link:hover {
+  color: red;
+}
+
+.redirect-a-link:active {
+  color: green;
+}
+
+/* .parent-div p:first-child {
+  color: blueviolet;
+}
+
+.parent-div p:last-child {
+  color: rgb(39, 0, 212);
+} */
+
+/* .parent-div p:nth-of-type(odd) {
+  color: lightcoral;
+}
+
+.parent-div p:nth-of-type(even) {
+  color: rgb(13, 255, 0);
+}
+
+.parent-div p:first-child {
+  color: brown;
+} */
+
+ul {
+  /* display: flex;
+  flex-direction: column; */
+  width: 400px;
+  height: 400px;
+  background-color: deeppink;
+}
+
+ul li {
+  background-color: green;
+  display: inline;
+}
+
+ul li:hover {
+  color: red;
+}
+
+ul:hover li {
+  color: navy;
+}
+
+.parent-div p::first-line {
+  color: rgb(255, 255, 0);
+}
+.first {
+  background-color: aqua;
+}
